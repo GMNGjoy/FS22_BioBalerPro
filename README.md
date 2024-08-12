@@ -31,3 +31,18 @@ No one likes baling poplar... because the bales are so small, the pickup on the 
 1. Download this package from ModHub or GitHub on the releases page, save the `FS22_BioBalerPro.zip` into your mod folder.
 2. Launch the game, and activate the mod.
 _Enjoy!_
+
+
+## Screenshots
+
+![Poplar BioBaler Pro with new bales](/_screenshots/poplarBales.png)
+_Poplar BioBaler Pro showing off the new bale sizes_
+
+![Poplar BioBaler Pro with VPW](/_screenshots/poplarVpw.png)
+_Poplar BioBaler Pro in the field showing how VPW works_
+
+![Cotton BioBaler Pro with new cotton bales](/_screenshots/cottonBales.png)
+_Cotton BioBaler Pro showing off the new cotton bales_
+
+![Poplar BioBaler Pro with VPW](/_screenshots/cottonVpw.png)
+_Poplar BioBaler Pro in the field showing how VPW works_
