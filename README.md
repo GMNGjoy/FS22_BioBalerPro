@@ -1,5 +1,5 @@
 # BioBaler Pro (with VPW!)
-Why do the pallets only spawn on one layer? NO LONGER! This script mod solves the issue of not enough pallets being able to be spawned in any (base-game or mod) production or husbandry spawn point!
+No one likes baling poplar... because the bales are so small, the pickup on the baler is tiny, it's slow, and it creates a shit-ton of bales. I've fixed all of that by making it faster, making it support all the way up to 180 sized bales with much larger capacities, and even adding in Variable Pickup Width support. If that wasn't enough, I've added a COTTON version also, so you can actually harvest cotten without needing a crazy expensive harvester. You're welcome!
 
 ### From the ModDesc
 > A PRO version of the Anderson BioBaler with support for extra & larger bale sizes.
