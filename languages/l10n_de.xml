@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <translationContributors>
+        <translationContributor></translationContributor>
+    </translationContributors>
+    <texts>
+        <text name="workMode_default" text="Standardmäßige Abholung" />
+        <text name="workMode_bonus" text="Bonus-Abholung" />
+        <text name="workMode_extended" text="Erweiterte Abholung" />
+        <text name="workMode_unreal" text="Virtueller Schwadleger" />
+
+        <text name="function_variablePickupWidth" text="Der Aufnahmevorsatz dieses Werkzeugs verfügt über eine variable Arbeitsbreite." />
+        <text name="function_cottonBaler" text="This BioBaler is modified to press cotton into wrapped bales." />
+
+        <text name="shopItem_bioBalerPro" text="BioBaler WB-55 Pro" />
+        <text name="shopItem_bioBalerCotton" text="BioBaler WB-55 Cotton" />
+    </texts>
+</l10n>

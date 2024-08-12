@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="80">
+    <author>GMNGjoy</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>BioBaler Pro</en>
+        <de>BioBaler Pro</de>
+    </title>
+    <description>
+        <en>
+<![CDATA[
+A PRO version of the Anderson BioBaler with support for extra & larger bale sizes.
+
+POPLAR Bale sizes:
+- 125cm 4000L
+- 150cm 6000L
+- 180cm 8000L
+
+Also included is a COTTON version of the Anderson BioBaler with custom cotton bales in the standard baler bale sizes.
+
+COTTON Bale sizes:
+- 125cm 2600L
+- 150cm 3200L
+- 180cm 3800L
+
+All custom bales can be picked up with base game equipment like the Anderson RBM 2000.
+
+AND... If that wasn't enough, this mod also adds in Variable Pickup Width (VPW) support, which adds a custom workMode allowing you to select from 4 different pickup widths:
+- Default Pickup (default)
+- Bonus Pickup (+2m)
+- Extended Pickup (+4m)
+- Virtual Windrower (20m)
+
+Each item costs $1 more than basegame, works a bit faster and has full color selection.
+
+For license & feedback, please visit: https://github.com/GMNGjoy/FS22_BioBalerPro
+]]>
+		</en>
+        <de>
+<![CDATA[
+
+]]>
+		</de>
+    </description>
+    <iconFilename>icon_bioBalerPro.dds</iconFilename>
+    <multiplayer supported="true" />
+
+	<storeItems>
+        <storeItem xmlFilename="xml/bioBalerWB55Pro.xml" />
+        <storeItem xmlFilename="xml/bioBalerWB55Cotton.xml" />
+    </storeItems>
+
+    <bales>
+        <!-- biomass bales -->
+        <bale filename="roundbales/biomassBale125_4k.xml" />
+		<bale filename="roundbales/biomassBale150_6k.xml" />
+        <bale filename="roundbales/biomassBale180_8k.xml" />
+
+        <!-- cotton bales -->
+        <bale filename="roundbales/cottonRoundbale125.xml" />
+        <bale filename="roundbales/cottonRoundbale150.xml" />
+        <bale filename="roundbales/cottonRoundbale180.xml" />
+	</bales>
+
+    <vehicleTypes>
+        <type name="cottonBalerWorkMode" parent="baseGroundToolFillable" filename="$dataS/scripts/vehicles/Vehicle.lua">
+            <specialization name="workMode" />
+            <specialization name="combine" />
+            <specialization name="cutter" />
+            <specialization name="baler" />
+            <specialization name="dynamicMountAttacher" />
+        </type>
+
+        <type name="cuttingBalerWorkMode" parent="cuttingBaler" filename="$dataS/scripts/vehicles/Vehicle.lua">
+			<specialization name="workMode" />
+		</type>
+    </vehicleTypes>
+
+    <l10n filenamePrefix="languages/l10n" />
+</modDesc>

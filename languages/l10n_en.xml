@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <translationContributors/>
+    <texts>
+        <text name="workMode_default" text="Default Pickup" />
+        <text name="workMode_bonus" text="Bonus Pickup" />
+        <text name="workMode_extended" text="Extended Pickup" />
+        <text name="workMode_unreal" text="Virtual Windrower" />
+
+        <text name="function_variablePickupWidth" text="The pickup on this tool has a variable work width." />
+        <text name="function_cottonBaler" text="This BioBaler is modified to press cotton into wrapped bales." />
+
+        <text name="shopItem_bioBalerPro" text="BioBaler WB-55 Pro" />
+        <text name="shopItem_bioBalerCotton" text="BioBaler WB-55 Cotton" />
+    </texts>
+</l10n>
