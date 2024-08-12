@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <l10n>
     <translationContributors>
-        <translationContributor></translationContributor>
+        <translationContributor>Farmsim Tim</translationContributor>
     </translationContributors>
     <texts>
-        <text name="workMode_default" text="Standardmäßige Abholung" />
-        <text name="workMode_bonus" text="Bonus-Abholung" />
-        <text name="workMode_extended" text="Erweiterte Abholung" />
-        <text name="workMode_unreal" text="Virtueller Schwadleger" />
+        <text name="workMode_default" text="Standard Arbeitsbreite" />
+        <text name="workMode_bonus" text="Zusätzliche Arbeitsbreite" />
+        <text name="workMode_extended" text="Erweiterte Arbeitsbreite" />
+        <text name="workMode_unreal" text="Virtueller Schwader" />
 
-        <text name="function_variablePickupWidth" text="Der Aufnahmevorsatz dieses Werkzeugs verfügt über eine variable Arbeitsbreite." />
-        <text name="function_cottonBaler" text="This BioBaler is modified to press cotton into wrapped bales." />
+        <text name="function_variablePickupWidth" text="Die Pickup dieser Ballenpresse verfügt über eine variable Arbeitsbreite." />
+        <text name="function_cottonBaler" text="Diese Ballenpresse wurde modifiziert, um Baumwolle in Ballen zu pressen." />
 
         <text name="shopItem_bioBalerPro" text="BioBaler WB-55 Pro" />
-        <text name="shopItem_bioBalerCotton" text="BioBaler WB-55 Cotton" />
+        <text name="shopItem_bioBalerCotton" text="BioBaler WB-55 Baumwolle" />
     </texts>
 </l10n>
