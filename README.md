@@ -1,5 +1,7 @@
 # BioBaler Pro (with VPW!)
-No one likes baling poplar... because the bales are so small, the pickup on the baler is tiny, it's slow, and it creates a shit-ton of bales. I've fixed all of that by making it faster, making it support all the way up to 180 sized bales with much larger capacities, and even adding in Variable Pickup Width support. If that wasn't enough, I've added a COTTON version also, so you can actually harvest cotten without needing a crazy expensive harvester. You're welcome!
+No one likes baling poplar... because the bales are so small, the pickup on the baler is tiny, it's slow, and it creates a shit-ton of bales. I've fixed all of that by making it faster, making it support all the way up to 180 sized bales with much larger capacities, and even adding in Variable Pickup Width support. If that wasn't enough, I've added a COTTON version also, so you can actually harvest cotten without needing a crazy expensive harvester.
+
+_You're welcome!_
 
 ### From the ModDesc
 > A PRO version of the Anderson BioBaler with support for extra & larger bale sizes.
@@ -30,6 +32,7 @@ No one likes baling poplar... because the bales are so small, the pickup on the 
 ## Installation Instructions
 1. Download this package from ModHub or GitHub on the releases page, save the `FS22_BioBalerPro.zip` into your mod folder.
 2. Launch the game, and activate the mod.
+
 _Enjoy!_
 
 
