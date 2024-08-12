@@ -41,7 +41,7 @@ _Poplar BioBaler Pro showing off the new bale sizes_
 ![Poplar BioBaler Pro with VPW](/_screenshots/poplarVpw.png)
 _Poplar BioBaler Pro in the field showing how VPW works_
 
-![Cotton BioBaler Pro with new cotton bales](/_screenshots/cottonBales.png)
+![Cotton BioBaler Pro with new cotton bales](/_screenshots/cottonSizes.png)
 _Cotton BioBaler Pro showing off the new cotton bales_
 
 ![Poplar BioBaler Pro with VPW](/_screenshots/cottonVpw.png)
