@@ -8,20 +8,19 @@
     </title>
     <description>
         <en>
-<![CDATA[
-A PRO version of the Anderson BioBaler with support for extra & larger bale sizes.
+<![CDATA[A PRO version of the Anderson BioBaler with support for extra & larger bale sizes.
 
-POPLAR Bale sizes:
-- 125cm 4000L
-- 150cm 6000L
-- 180cm 8000L
+Poplar Bale sizes:
+- 125cm (4000L)
+- 150cm (6000L)
+- 180cm (8000L)
 
-Also included is a COTTON version of the Anderson BioBaler with custom cotton bales in the standard baler bale sizes.
+Also included is a cotton version of the Anderson BioBaler with custom cotton bales in the standard baler bale sizes.
 
-COTTON Bale sizes:
-- 125cm 2600L
-- 150cm 3200L
-- 180cm 3800L
+Cotton Bale sizes:
+- 125cm (2600L)
+- 150cm (3200L)
+- 180cm (3800L)
 
 All custom bales can be picked up with base game equipment like the Anderson RBM 2000.
 
@@ -33,13 +32,34 @@ AND... If that wasn't enough, this mod also adds in Variable Pickup Width (VPW) 
 
 Each item costs $1 more than basegame, works a bit faster and has full color selection.
 
-For license & feedback, please visit: https://github.com/GMNGjoy/FS22_BioBalerPro
-]]>
+For license & feedback, please visit: https://github.com/GMNGjoy/FS22_BioBalerPro]]>
 		</en>
         <de>
-<![CDATA[
+<![CDATA[Die PRO Version des Anderson BioBaler mit Unterstützung für zusätzliche Ballengrößen.
 
-]]>
+Ballengrößen für Pappeln:
+- 125cm (4000L)
+- 150cm (6000L)
+- 180cm (8000L)
+
+Zusätzlich ist eine Baumwoll-Version des Anderson BioBaler mit neuen Baumwoll-Ballen in den Standard Ballengrößen enthalten.
+
+Ballengrößen für Baumwolle:
+- 125cm (2600L)
+- 150cm (3200L)
+- 180cm (3800L)
+
+Alle zusätzlichen Ballen können mit Geräten aus dem Basisspiel, wie dem Anderson RBM 2000, aufgehoben werden.
+
+UND... falls das noch nicht genug war, unterstützt diese Mod auch eine Variable Arbeitsbreite, die es ermöglicht, aus vier verschiedenen Arbeitsbreiten zu wählen:
+- Standard Arbeitsbreite (Standard)
+- Zusätzliche Arbeitsbreite (+2m)
+- Erweiterte Arbeitsbreite (+4m)
+- Virtueller Schwader (20m)
+
+Jedes Gerät kostet 1€ mehr als im Basisspiel, arbeitet etwas schneller und unterstützt die volle Farbauswahl.
+
+Besucht für Lizenz und Feedback bitte https://github.com/GMNGjoy/FS22_BioBalerPro]]>
 		</de>
     </description>
     <iconFilename>icon_bioBalerPro.dds</iconFilename>
