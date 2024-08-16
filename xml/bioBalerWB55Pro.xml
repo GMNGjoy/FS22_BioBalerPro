@@ -49,12 +49,6 @@
         </components>
         <schemaOverlay attacherJointPosition="0 0" name="IMPLEMENT" />
         <mapHotspot type="TOOL_TRAILED" />
-        <!-- make the pickup area bigger -->
-        <objectChanges>
-            <objectChange node="workAreaStart" translationActive="1.5 0 1.437029" />
-            <objectChange node="workAreaWidth" translationActive="-1.5 0 1.437029" />
-            <objectChange node="workAreaHeight" translationActive="1.5 0 0.715698" />
-        </objectChanges>
     </base>
 
     <wheels>
@@ -383,19 +377,19 @@
         </animation>
 
         <animation name="defaultWorkAreaClear">
-            <part node="workAreaStart" startTime="0" endTime="0.1" endTrans="1.5 0 1.437029"/>
-            <part node="workAreaWidth" startTime="0" endTime="0.1" endTrans="-1.5 0 1.437029"/>
-            <part node="workAreaHeight" startTime="0" endTime="0.1" endTrans="1.5 0 0.437029"/>
+            <part node="workAreaStart" startTime="0" endTime="0.1" endTrans="1.25 0 1.437029"/>
+            <part node="workAreaWidth" startTime="0" endTime="0.1" endTrans="-1.25 0 1.437029"/>
+            <part node="workAreaHeight" startTime="0" endTime="0.1" endTrans="1.25 0 0.437029"/>
         </animation>
         <animation name="bonusWorkAreaClear">
-            <part node="workAreaStart" startTime="0" endTime="0.1" endTrans="2.5 0 1.437029"/>
-            <part node="workAreaWidth" startTime="0" endTime="0.1" endTrans="-2.5 0 1.437029"/>
-            <part node="workAreaHeight" startTime="0" endTime="0.1" endTrans="2.5 0 0.437029"/>
+            <part node="workAreaStart" startTime="0" endTime="0.1" endTrans="2.25 0 1.437029"/>
+            <part node="workAreaWidth" startTime="0" endTime="0.1" endTrans="-2.25 0 1.437029"/>
+            <part node="workAreaHeight" startTime="0" endTime="0.1" endTrans="2.25 0 0.437029"/>
         </animation>
         <animation name="extendedWorkAreaClear">
-            <part node="workAreaStart" startTime="0" endTime="0.1" endTrans="4.0 0 1.437029"/>
-            <part node="workAreaWidth" startTime="0" endTime="0.1" endTrans="-4.0 0 1.437029"/>
-            <part node="workAreaHeight" startTime="0" endTime="0.1" endTrans="4.0 0 0.437029"/>
+            <part node="workAreaStart" startTime="0" endTime="0.1" endTrans="3.25 0 1.437029"/>
+            <part node="workAreaWidth" startTime="0" endTime="0.1" endTrans="-3.25 0 1.437029"/>
+            <part node="workAreaHeight" startTime="0" endTime="0.1" endTrans="3.25 0 0.437029"/>
         </animation>
         <animation name="unrealWorkAreaClear">
             <part node="workAreaStart" startTime="0" endTime="0.1" endTrans="10.0 0 1.437029"/>
@@ -404,19 +398,19 @@
         </animation>
 
         <animation name="defaultWorkAreaSet">
-            <part node="workAreaStart" startTime="0.1" endTime="0.2" endTrans="1.5 0 1.437029"/>
-            <part node="workAreaWidth" startTime="0.1" endTime="0.2" endTrans="-1.5 0 1.437029"/>
-            <part node="workAreaHeight" startTime="0.1" endTime="0.2" endTrans="1.5 0 0.437029"/>
+            <part node="workAreaStart" startTime="0.1" endTime="0.2" endTrans="1.25 0 1.437029"/>
+            <part node="workAreaWidth" startTime="0.1" endTime="0.2" endTrans="-1.25 0 1.437029"/>
+            <part node="workAreaHeight" startTime="0.1" endTime="0.2" endTrans="1.25 0 0.437029"/>
         </animation>
         <animation name="bonusWorkAreaSet">
-            <part node="workAreaStart" startTime="0.1" endTime="0.2" endTrans="2.5 0 1.437029"/>
-            <part node="workAreaWidth" startTime="0.1" endTime="0.2" endTrans="-2.5 0 1.437029"/>
-            <part node="workAreaHeight" startTime="0.1" endTime="0.2" endTrans="2.5 0 0.437029"/>
+            <part node="workAreaStart" startTime="0.1" endTime="0.2" endTrans="2.25 0 1.437029"/>
+            <part node="workAreaWidth" startTime="0.1" endTime="0.2" endTrans="-2.25 0 1.437029"/>
+            <part node="workAreaHeight" startTime="0.1" endTime="0.2" endTrans="2.25 0 0.437029"/>
         </animation>
         <animation name="extendedWorkAreaSet">
-            <part node="workAreaStart" startTime="0.1" endTime="0.2" endTrans="4.0 0 1.437029"/>
-            <part node="workAreaWidth" startTime="0.1" endTime="0.2" endTrans="-4.0 0 1.437029"/>
-            <part node="workAreaHeight" startTime="0.1" endTime="0.2" endTrans="4.0 0 0.437029"/>
+            <part node="workAreaStart" startTime="0.1" endTime="0.2" endTrans="3.25 0 1.437029"/>
+            <part node="workAreaWidth" startTime="0.1" endTime="0.2" endTrans="-3.25 0 1.437029"/>
+            <part node="workAreaHeight" startTime="0.1" endTime="0.2" endTrans="3.25 0 0.437029"/>
         </animation>
         <animation name="unrealWorkAreaSet">
             <part node="workAreaStart" startTime="0.1" endTime="0.2" endTrans="10.0 0 1.437029"/>
