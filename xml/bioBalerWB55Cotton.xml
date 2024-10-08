@@ -185,20 +185,15 @@
         <baleTypes>
             <baleType isRoundBale="true" width="1.2" diameter="1.25">
                 <nodes baleNode="baleScaleNode" scaleNode="baleScaleNode" scaleComponents="1 1 0" />
-                <animations fillAnimation="baleFillAnimation" unloadAnimation="unloadBale"
-                    dropAnimationTime="2.0" />
+                <animations fillAnimation="baleFillAnimation" unloadAnimation="unloadBale" dropAnimationTime="2.5" />
             </baleType>
             <baleType isRoundBale="true" width="1.2" diameter="1.50">
-                <nodes baleNode="baleScaleNode" scaleNode="baleScaleNode"
-                    scaleComponents="0.90 0.90 0" />
-                <animations fillAnimation="baleFillAnimation" unloadAnimation="unloadBale"
-                    dropAnimationTime="2.0" />
+                <nodes baleNode="baleScaleNode" scaleNode="baleScaleNode" scaleComponents="0.90 0.90 0" />
+                <animations fillAnimation="baleFillAnimation" unloadAnimation="unloadBale" dropAnimationTime="2.5" />
             </baleType>
             <baleType isRoundBale="true" width="1.2" diameter="1.80">
-                <nodes baleNode="baleScaleNode" scaleNode="baleScaleNode"
-                    scaleComponents="0.8 0.8 0" />
-                <animations fillAnimation="baleFillAnimation" unloadAnimation="unloadBale"
-                    dropAnimationTime="2.0" />
+                <nodes baleNode="baleScaleNode" scaleNode="baleScaleNode" scaleComponents="0.8 0.8 0" />
+                <animations fillAnimation="baleFillAnimation" unloadAnimation="unloadBale" dropAnimationTime="2.5" />
             </baleType>
         </baleTypes>
 
@@ -284,37 +279,25 @@
                 endRot="-5 0 0" />
             <part node="baleUnloader" startTime="4.5" endTime="5" startRot="-5 0 0" endRot="10 0 0" />
 
-            <part node="baleNode" startTime="1" endTime="2" startTrans="0.004 1.421 -0.179"
-                endTrans="0.004 1.113 -0.703" startRot="0.0 0.0 0.0" endRot="-53.0 0.0 0.0" />
-            <part node="baleNode" startTime="2" endTime="2.5" startTrans="0.004 1.113 -0.703"
-                endTrans="0.004 0.959 -0.965" startRot="-53.0 0.0 0.0" endRot="-84.74 0.0 0.0" />
-            <part node="baleNode" startTime="2.5" endTime="3" startTrans="0.004 0.959 -0.965"
-                endTrans="0.004 0.839 -1.354" startRot="-84.74 0.0 0.0" endRot="-124.447 0.0 0.0" />
-            <part node="baleNode" startTime="3" endTime="3.5" startTrans="0.004 0.839 -1.354"
-                endTrans="0.004 0.759 -1.719" startRot="-124.447 0.0 0.0" endRot="-164.154 0.0 0.0" />
-            <part node="baleNode" startTime="3.5" endTime="3.7" startTrans="0.004 0.759 -1.719"
-                endTrans="0.004 0.759 -1.861" startRot="-164.154 0.0 0.0" endRot="-175.074 0.0 0.0" />
-            <part node="baleNode" startTime="3.7" endTime="5" startTrans="0.004 0.759 -1.861"
-                endTrans="0.004 0.759 -2.563" startRot="-175.074 0.0 0.0" endRot="-246.056 0.0 0.0" />
+            <part node="baleNode" startTime="0.5" endTime="1" startTrans="0.004 1.421 -0.179" endTrans="0.004 1.113 -0.703" startRot="0.0 0.0 0.0" endRot="-53.0 0.0 0.0" />
+            <part node="baleNode" startTime="1" endTime="1.25" startTrans="0.004 1.113 -0.703" endTrans="0.004 0.959 -0.965" startRot="-53.0 0.0 0.0" endRot="-84.74 0.0 0.0" />
+            <part node="baleNode" startTime="1.25" endTime="1.5" startTrans="0.004 0.959 -0.965" endTrans="0.004 0.839 -1.354" startRot="-84.74 0.0 0.0" endRot="-124.447 0.0 0.0" />
+            <part node="baleNode" startTime="1.5" endTime="1.75" startTrans="0.004 0.839 -1.354" endTrans="0.004 0.759 -1.719" startRot="-124.447 0.0 0.0" endRot="-164.154 0.0 0.0" />
+            <part node="baleNode" startTime="1.75" endTime="1.85" startTrans="0.004 0.759 -1.719" endTrans="0.004 0.759 -1.861" startRot="-164.154 0.0 0.0" endRot="-175.074 0.0 0.0" />
+            <part node="baleNode" startTime="1.85" endTime="2.5" startTrans="0.004 0.759 -1.861" endTrans="0.004 0.759 -2.563" startRot="-175.074 0.0 0.0" endRot="-246.056 0.0 0.0" />
 
-            <sound template="defaultHydraulicSound" startTime="0.01" endTime="1.99"
-                volumeScale="1.5" pitchScale="0.8" />
+            <sound template="defaultHydraulicSound" startTime="0.01" endTime="1.99" volumeScale="1.5" pitchScale="0.8" />
             <sound template="foldStartMed01" startTime="0.01" volumeScale="2.2" pitchScale="1.5" />
-            <sound template="metalOpen" startTime="1.8" direction="1" volumeScale="2.8"
-                pitchScale="0.8" />
-            <sound template="sheetImp02" startTime="1.8" direction="1" volumeScale="2.7"
-                pitchScale="0.8" />
-            <sound template="BALER_EJECT" startTime="0.01" endTime="2" volumeScale="2.5"
-                pitchScale="1.5" />
+            <sound template="metalOpen" startTime="1.8" direction="1" volumeScale="2.8" pitchScale="0.8" />
+            <sound template="sheetImp02" startTime="1.8" direction="1" volumeScale="2.7" pitchScale="0.8" />
+            <sound template="BALER_EJECT" startTime="0.01" endTime="2" volumeScale="2.5" pitchScale="1.5" />
         </animation>
 
         <animation name="closeDoor" resetOnStart="false">
             <part node="backDoor" startTime="0" endTime="2" startRot="60 0 0" endRot="0 0 0" />
-            <part node="baleNode" startTime="0" endTime="2" endRot="0 0 0"
-                endTrans="0.004 1.421 -0.179" />
+            <part node="baleNode" startTime="0" endTime="2" endRot="0 0 0" endTrans="0.004 1.421 -0.179" />
 
-            <sound template="defaultHydraulicSound" startTime="0.01" endTime="1.99"
-                volumeScale="2.5" pitchScale="0.8" />
+            <sound template="defaultHydraulicSound" startTime="0.01" endTime="1.99" volumeScale="2.5" pitchScale="0.8" />
             <sound template="sheetImp02" startTime="1.99" volumeScale="2" pitchScale="0.8" />
             <sound template="metalClose" startTime="1.99" volumeScale="3" pitchScale="0.6" />
             <sound template="clackVar5" startTime="0.01" volumeScale="0.7" pitchScale="1.5" />

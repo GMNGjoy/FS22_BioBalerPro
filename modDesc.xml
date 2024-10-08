@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <modDesc descVersion="80">
     <author>GMNGjoy</author>
-    <version>1.0.0.0</version>
+    <version>1.0.0.1</version>
     <title>
         <en>BioBaler Pro</en>
         <de>Profi BioBaler</de>
@@ -39,7 +39,10 @@ Note: In rare cases when saving, leaving the game and coming back in with a VPW 
 
 Each item costs $1 more than basegame, works a bit faster and has full color selection.
 
-For license & feedback, please visit: https://github.com/GMNGjoy/FS22_BioBalerPro]]>
+For license & feedback, please visit: https://github.com/GMNGjoy/FS22_BioBalerPro
+
+CHANGELOG 1.0.0.1
+- Fixed bale drop animation]]>
 		</en>
         <de>
 <![CDATA[Die PRO Version des Anderson BioBaler mit Unterstützung für zusätzliche Ballengrößen.
